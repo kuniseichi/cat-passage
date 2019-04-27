@@ -1,0 +1,20 @@
+.img-wrapper{
+	width: 98%;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.format-img{
+	width: 100%;
+}
+
+
+.qrcode-wrapper{
+    margin: 20px auto;
+    max-width: 800px;
+    width: 92%;
+    margin-top: 0px;
+}
+.qrcode-img{
+	width: 100%;
+}

@@ -1,0 +1,196 @@
+.one-title-1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.one-title-2{
+	display: inline-block;
+	background: #3cc0ff;
+	border-radius: 6px;
+	padding: 3px 7px;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+.one-title-3{
+	display: inline-block;
+	margin-top: 6px;
+	margin-left: 5px;
+}
+.one-title-4{
+	font-weight: bold;
+	letter-spacing: 2px;
+	line-height: 1.75em;
+	color: rgb(63, 63, 63);
+}
+.one-title-5{
+	width: 3em;
+	border-bottom: 2px solid rgb(63, 63, 63);
+	float: right;
+	box-sizing: border-box;
+}
+.one-title-6{
+	clear: both;
+	width: 90%;
+	border-bottom: 2px solid rgb(63, 63, 63);
+	float: right;
+	margin-top: 3px;
+	box-sizing: border-box;
+}
+.two-title-1{
+	padding:20px 20px;text-align: center;display: flex;color: rgb(63,62,63);letter-spacing: 1.5px;align-items:center;
+}
+.two-title-2{
+	margin-top:6px;margin-right: -20px;
+}
+.two-title-3{
+	width:20px;text-align:right;height:14px;background:#3cc0ff;color:#3f3f3f;
+}
+.two-title-4{
+	font-size:24px;color:#3f3f3f;margin-top: -10px;
+}
+.two-title-5{
+	font-size:16px;padding-left:4px;line-height: 20px;transform:rotate(0deg);
+}
+.two-title-6{
+	margin-bottom: -15px;margin-left: -30px;
+}
+.two-title-7{
+    width:1.8em;
+    height: 6px;background: #3cc0ff;
+}
+
+.one-quote-1{
+	padding-top: 1px;
+    padding-bottom: 10px;
+        margin-top: 20px;
+}
+.one-quote-2{
+	white-space: normal;padding-left: 10px; max-width: 100%; border-left-width: 5px; border-left-style: solid; border-left-color: #9db4c2; margin: 0px 0.5em 20px 0.5em;
+}
+.one-quote-3{
+	font-size: 13px;text-align: justify;letter-spacing: 1px;line-height: 1.75em; color: rgba(102, 102, 102,0.8);
+}
+.one-quote-4{
+	text-align: right;
+}
+/*临时撑起高度*/
+.box-20{
+	    height: 1px;
+    margin-bottom: 20px;
+}
+
+/*区别 对比 表格*/
+.one-table-wrapper{
+	border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    overflow: hidden;
+    margin: 20px auto;
+    max-width: 500px;
+}
+.one-table-head{
+	width: 100%;
+    background-color: #6c7ae0;
+    display: table;
+}
+.one-table-body1{
+	width: 100%;
+    color: #808080;
+    display: table;
+}
+.one-table-body2{
+	width: 100%;
+    color: #808080;
+    background-color: #f8f6ff;
+    display: table;
+}
+.one-table-left{
+	width: 18%;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    padding: 5px;
+}
+.one-table-content{
+	width: 41%;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    padding: 5px;
+}
+
+/*竖排表格*/
+.two-table-wrapper{
+    font-size: 15px;
+    color: #fff;
+    margin: 0px 0.5em 20px 0.5em;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.two-table-body{
+    display: table;
+    width: 100%;
+}
+.two-table-left{
+	color: #fff;
+    background-color: #6c7ae0;
+    width: 18%;
+    /*padding: 7px 0px;*/
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    padding: 5px;
+}
+.two-table-right{
+    color: #808080;
+    background-color: #f8f6ff;
+    width: 82%;
+    padding: 7px 10px;
+    text-align: center;
+    display: table-cell;
+    vertical-align:middle;
+    /*padding: 5px;*/
+}
+
+.one-list-1{
+	padding-left: 3.2em;
+    font-size: 15px;
+    color: rgb(89, 89, 89);
+    margin-bottom: 10px;
+}
+
+.line-wrapper{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    display: flex;
+}
+.line-padding{
+    padding-left: 20px;
+}
+
+/* 搜索框 */
+.input-wrapper{
+    padding: 9px;
+}
+.input{
+    border: 1px solid #d9d9d9;
+    height: 32px;
+    width: 92%;
+    border-radius: 10px;
+    padding-left: 30px;
+    color: #595959;
+    line-height: 20px;
+    font-size: 16px;
+}
+.input-icon-search{
+    display: block;
+    position: absolute;
+    padding: 9px;
+    color: #9c9c9c;
+}
+.input:focus{
+    outline: 0px;
+    border-color:#1890ff; 
+}
