@@ -14,7 +14,8 @@ class Search extends Component {
             if (e.keyCode == 13) {
                 var keyword = e.target.value
                 $.ajax({
-                    url:  'https://kuniseichi.cn/index/' + keyword,
+                    url:  'https://kuniseichi.cn/api_v1/index/' + keyword,
+                    // url:  'http://localhost:8090/api_v1/index/' + keyword,
                     async: true,
                     success: (res) => {
                         if (res.success) {
