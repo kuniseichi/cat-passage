@@ -194,3 +194,38 @@
     outline: 0px;
     border-color:#1890ff; 
 }
+.no-result{
+    color: #595959;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.passage-list{
+    padding: 10px;
+}
+
+.passage-list .title{
+    color: #595959;
+    font-size: 16px;
+    display: block;
+    cursor: pointer;
+}
+
+.passage-list .content{
+    height: 35px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    color: #999;
+    font-size: 12px;
+    display: block;
+    padding-top: 3px;
+    cursor: pointer;
+}
+.passage-list .line{
+    border-bottom: 1px solid #dedede;
+    padding-top: 15px;
+    margin: auto;
+}

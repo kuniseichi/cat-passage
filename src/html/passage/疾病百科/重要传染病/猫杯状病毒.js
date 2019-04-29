@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import TitleOne from '../../comp/titleOne';
-import TitleTwo from '../../comp/titleTwo';
-import ZW from '../../comp/zw';
-import PW from '../../comp/passageWrapper';
-import Passage from '../../comp/passage';
-import WX from '../../comp/wx';
+import TitleOne from '../../../comp/titleOne';
+import TitleTwo from '../../../comp/titleTwo';
+import ZW from '../../../comp/zw';
+import PW from '../../../comp/passageWrapper';
+import Passage from '../../../comp/passage';
+import WX from '../../../comp/wx';
 
 class Beizhuang extends Component {
     render() {
