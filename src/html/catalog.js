@@ -67,15 +67,16 @@ class Catalog extends Component {
                         onGetPassageIndex={this.onGetPassageIndex}
                     />
                     <section style={this.state.showCatelog?{display: "block"}:{display: "none"}}>
-                        {/* <Line content="猫咪科普">
-                            <Line content="猫咪品种" />
+                        <Line content="猫咪科普">
+                            <Line content="猫的起源" />
+                            {/* <Line content="猫咪品种" />
                             <Line content="生理结构" />
                             <Line content="生活习性" />
                             <Line content="品相鉴定" >
                                 <Line content="英短" />
                                 <Line content="美短" />
-                            </Line>
-                        </Line> */}
+                            </Line> */}
+                        </Line>
                         {/* <Line content="日常养护">
                             <Line content="必需品" />
                             <Line content="健康检查" />

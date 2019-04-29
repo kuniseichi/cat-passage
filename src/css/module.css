@@ -187,8 +187,10 @@
 .input-icon-search{
     display: block;
     position: absolute;
-    padding: 9px;
+    padding: 5px;
     color: #9c9c9c;
+    margin-top: 4px;
+    margin-left: 4px;
 }
 .input:focus{
     outline: 0px;
