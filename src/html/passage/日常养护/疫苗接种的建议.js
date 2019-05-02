@@ -6,6 +6,7 @@ import PW from '../../comp/passageWrapper';
 import Passage from '../../comp/passage';
 import Img from '../../comp/img';
 import WX from '../../comp/wx';
+import BigImg from '../../comp/bigImg';
 
 class YiMiaoJieZhong extends Component {
     render() {
@@ -14,8 +15,17 @@ class YiMiaoJieZhong extends Component {
                 <PW>
                     <TitleOne num="01" title="是否一定要打疫苗" />
                     <ZW>猫疫苗一般有猫三联、猫五联，甚至猫七联等，通常情况下都是选择猫三联。</ZW>
-                    <Img title="不同疫苗对病毒的防范" url="http://qny.kuniseichi.cn/WX20190416-155343.png"/>
-                    <ZW>正常情况下，<strong>要打猫三联</strong>，即使平常不出门也有可能被人携带的病毒感染。但是如果猫咪不出门，没有机会和有狂犬病的动物接触，则不需要打狂犬疫苗。</ZW>
+                    <BigImg title="不同疫苗对病毒的防范" url="http://qny.kuniseichi.cn/%E7%96%AB%E8%8B%97%E5%8C%BA%E5%88%AB.png"/>
+                    {/* 病毒两联三联四联五联七连
+                        猫疱疹病毒
+                        猫泛白细胞减少症（猫瘟）
+                        猫杯状病毒(上呼吸道炎症/慢性口炎)
+                        鹦鹉披衣菌（猫肺炎）
+                        猫白血病毒
+                        猫冠状病毒（可能引发猫传腹）
+                        狂犬病毒 */}
+                    <ZW>正常情况下，<strong>打猫三联即可</strong>，即使你的猫咪不出门，也有可能被人身上携带的病毒感染。</ZW>
+                    <ZW>而狂犬病毒是通过唾液传播，猫咪不出门，没有机会和有狂犬病的动物接触，是不会感染狂犬病的，也不需要打狂犬疫苗。</ZW>
                 </PW>
                 <PW>
                     <TitleOne num="02" title="接种建议" />

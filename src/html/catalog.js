@@ -68,7 +68,7 @@ class Catalog extends Component {
                     />
                     <section style={this.state.showCatelog?{display: "block"}:{display: "none"}}>
                         <Line content="猫咪科普">
-                            <Line content="猫的起源" />
+                            <Line content="猫的起源"/>
                             {/* <Line content="猫咪品种" />
                             <Line content="生理结构" />
                             <Line content="生活习性" />
@@ -77,25 +77,40 @@ class Catalog extends Component {
                                 <Line content="美短" />
                             </Line> */}
                         </Line>
-                        {/* <Line content="日常养护">
-                            <Line content="必需品" />
-                            <Line content="健康检查" />
-                            <Line content="定期工作" />
+                        <Line content="日常养护">
+                            {/* <Line content="必需品" />
                             <Line content="环境需求" />
-                            <Line content="掉毛" />
-                            <Line content="刷牙" />
+                            <Line content="定期工作" />
+                            <Line content="健康检查" />
+                            <Line content="掉毛" /> */}
+                            <Line content="如何给猫咪刷牙" />
                         </Line>
-                        <Line content="猫咪行为学">
+                        {/* <Line content="猫咪行为学">
                             <Line content="不良行为" />
                             <Line content="调整作息" />
                             <Line content="训练猫咪" />
-                        </Line>
+                        </Line> */}
                         <Line content="疾病百科">
-                            <Line content="人猫共患病" />
-                            <Line content="消化系统" />
-                            <Line content="呼吸系统" />
+                            {/* <Line content="人猫共患病" /> */}
+                            
+                            <Line content="呼吸系统" >
+                                <Line content="你的猫咪感冒了吗？" />
+                                <Line content="猫咪打喷嚏是感冒了吗？" />
+                            </Line>
+                            <Line content="消化系统">
+                                <Line content="从呕吐物看猫咪健康" />
+                                <Line content="猫咪常见口腔疾病" />
+                                <Line content="看猫屎知健康" />
+                            </Line>
+                            <Line content="皮肤疾病">
+                                <Line content="猫癣别发愁？" />
+                            </Line>
+                            <Line content="重要传染病">
+                                <Line content="猫杯状病毒" />
+                                <Line content="猫冠状病毒" />
+                            </Line>
                         </Line>
-                        <Line content="猫咪营养学">
+                        {/* <Line content="猫咪营养学">
                             <Line content="营养" />
                             <Line content="猫粮" />
                             <Line content="生骨肉" />

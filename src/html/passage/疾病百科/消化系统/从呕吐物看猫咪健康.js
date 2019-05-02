@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import TitleOne from '../../../../comp/titleOne';
-import TitleTwo from '../../../../comp/titleTwo';
-import ZW from '../../../../comp/zw';
-import PW from '../../../../comp/passageWrapper';
-import Passage from '../../../../comp/passage';
-import WX from '../../../../comp/wx';
-import UL from '../../../../comp/ul';
-import Img from '../../../../comp/img';
+import TitleOne from '../../../comp/titleOne';
+import TitleTwo from '../../../comp/titleTwo';
+import ZW from '../../../comp/zw';
+import PW from '../../../comp/passageWrapper';
+import Passage from '../../../comp/passage';
+import WX from '../../../comp/wx';
+import UL from '../../../comp/ul';
+import Img from '../../../comp/img';
 
 
 class OuTuWu extends Component {

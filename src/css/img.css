@@ -4,6 +4,11 @@
     max-width: 400px;
 }
 
+.img-wrapper2{
+	width: 98%;
+    margin: 20px auto;
+}
+
 .format-img{
 	width: 100%;
 }
