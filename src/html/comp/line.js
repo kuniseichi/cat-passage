@@ -19,7 +19,7 @@ class Line extends Component {
         return (
             <section>
                 <section className="line-wrapper" style={this.state.show?{color: "#1890ff"}:{color: "rgb(89, 89, 89)"}} onClick={this.handleClick}>
-                    <section><a href={this.props.url}>{this.props.content}</a></section>
+                    <section><a href={this.props.url} style={this.state.show?{color: "#1890ff"}:{color: "rgb(89, 89, 89)"}} >{this.props.content}</a></section>
                     {this.props.children
                     ?
                         (this.state.show
