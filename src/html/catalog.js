@@ -3,6 +3,7 @@ import Passage from './comp/passage';
 import PW from './comp/passageWrapper';
 import Line from './comp/line';
 import Search from './comp/search';
+import QRCode from './comp/QRCode';
 
 /**
  *  症状 -> 可能疾病
@@ -161,6 +162,7 @@ class Catalog extends Component {
                         
                     </section>
                 </PW>
+                <QRCode/>
             </Passage>
         );
     }
