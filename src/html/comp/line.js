@@ -26,7 +26,6 @@ class Line extends Component {
                         ?<i className="iconfont iconarrowdropdownshangbian arrow" />
                         :<i className="iconfont iconarrowdropdownxiabian arrow" />)
                     :null}
-                    
                 </section>
                 <section className="line-padding">
                     {this.state.show

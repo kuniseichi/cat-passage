@@ -47,3 +47,20 @@ a:visited {
     color: rgb(89, 89, 89);
     
 }
+
+.schedule{
+    
+}
+.schedule .title{
+    border-bottom: 1px solid #dedeee;
+    display: flex;
+}
+.schedule .title .content{
+    color:#1890ff;
+    font-size: 25px;
+    flex: 1;
+}
+.schedule .title .set{
+    color: grey;
+    padding-top: 10px;
+}
