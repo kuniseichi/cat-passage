@@ -8,7 +8,7 @@ import WX from '../../../comp/wx';
 import UL from '../../../comp/ul';
 import Img from '../../../comp/img';
 
-class MaoXuan2 extends Component {
+class TiaoZao extends Component {
     render() {
         return (
             <Passage title="跳蚤过敏性皮炎">
@@ -28,4 +28,4 @@ class MaoXuan2 extends Component {
     }
 }
 
-export default MaoXuan2;
+export default TiaoZao;

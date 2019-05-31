@@ -12,9 +12,9 @@ import Img from '../../../comp/img';
 class GanMao extends Component {
     render() {
         return (
-            <Passage title="你的猫咪感冒了吗？">
+            <Passage title="我的猫咪感冒了吗？">
                 <PW>
-                    <TitleOne num="01" title="你的猫感冒了吗？" />
+                    <TitleOne num="01" title="我的猫感冒了吗？" />
                     <ZW>如果你发现你的猫咪开始打喷嚏，流鼻涕，眼睛分泌物变多的时候，就要注意了，此时猫咪可能已经感冒了。</ZW>
                     <ZW>猫咪的感冒大多是病毒引起的，少数是由细菌引起的。</ZW>
                     <ZW>引起猫咪感冒的病菌主要有以下：</ZW>
