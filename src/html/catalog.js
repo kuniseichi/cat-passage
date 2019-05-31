@@ -52,7 +52,7 @@ class Catalog extends Component {
                 <section className="passage-list">
                     <a className="title" href={p.url}>{p.title}</a>
                     <a className="content" href={p.url}>{p.content}</a>
-                    <section className="line">{p.url}</section>
+                    {/* <section className="line">{p.url}</section> */}
                 </section>
             )
         }
@@ -100,7 +100,7 @@ class Catalog extends Component {
                                 <Line content="沙门氏菌"/>
                                 <Line content="被猫抓咬需要打狂犬疫苗吗？" url="https://zhuanlan.zhihu.com/p/67669606"/>
                                 <Line content="猫抓病" url="https://zhuanlan.zhihu.com/p/67670308"/>
-                                <Line content="猫癣" url="https://zhuanlan.zhihu.com/p/67670709"/>
+                                <Line content="一篇文章搞定猫癣" url="https://zhuanlan.zhihu.com/p/67670709"/>
                                 <Line content="绦虫病" url="https://zhuanlan.zhihu.com/p/67676681"/>
                                 <Line content="养猫要小心蛔虫病" url="https://zhuanlan.zhihu.com/p/67671118"/>
                                 <Line content="跳蚤过敏性皮炎" url="https://zhuanlan.zhihu.com/p/67676804"/>
@@ -124,17 +124,17 @@ class Catalog extends Component {
                             </Line>
                             
                             <Line content="皮肤疾病">
-                                <Line content="猫癣别发愁？" url="https://zhuanlan.zhihu.com/p/67670709"/>
+                                <Line content="一篇文章搞定猫癣" url="https://zhuanlan.zhihu.com/p/67670709"/>
                             </Line>
                             <Line content="眼科疾病">
-                                <Line content="猫咪常见眼科疾病"/>
+                                <Line content="猫咪常见眼科疾病" url="https://zhuanlan.zhihu.com/p/67679498"/>
                             </Line>
                             <Line content="耳科疾病">
-                                <Line content="耳螨"/>
+                                <Line content="正确治疗猫咪耳螨" url=""/>
                             </Line>
                             <Line content="重要传染病">
-                                <Line content="猫传腹" />
-                                <Line content="猫冠状病毒" />
+                                <Line content="猫咪第一杀手-猫传腹" />
+                                <Line content="猫杯状病毒" />
                                 <Line content="猫疱疹病毒" />
                                 <Line content="猫瘟" />
                             </Line>
