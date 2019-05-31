@@ -31,9 +31,6 @@ class YunFu extends Component {
                         <li>不要给宠物猫喂食生肉生水。</li>
                     </UL>
                     <ZW>但如果不能保持良好的卫生习惯，建议怀孕期间还是和猫咪隔离更为保险。</ZW>
-                    <WX>
-                        <p class="wx">[1]林政毅. 猫咪家庭医学大百科[M]. 2014:415-422.</p>
-                    </WX>
                 </PW>
             </Passage>
         );

@@ -14,6 +14,35 @@ import Search from './comp/search';
 
 class Schedule extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            showCatelog: true,
+            showIndex: false,
+            passageIndex: [],
+        }
+    }
+
+    changeShowCatelog = (e) => {
+        this.setState({
+            showCatelog:e
+        })
+    }
+
+    changeShowIndex = (e) => {
+        this.setState({
+            showIndex:e
+        })
+    }
+
+    onGetPassageIndex = (e) => {
+        
+        this.setState({
+            passageIndex:e
+        })
+        console.log(this.state.passageIndex)
+    }
+
     render() {
 
 
@@ -26,7 +55,7 @@ class Schedule extends Component {
                             <section className="set">设置</section>
                         </section>
                         <section>
-
+                            
                         </section>
                     </section>
                 </PW>

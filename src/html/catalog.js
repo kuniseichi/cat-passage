@@ -105,6 +105,8 @@ class Catalog extends Component {
                                 <Line content="蛔虫病"/>
                                 <Line content="跳蚤过敏性皮炎"/>
                                 <Line content="钩虫病"/>
+                                <Line content="如何预防人猫共患病？"/>
+                                <Line content="孕妇究竟能不能养猫"/>
                             </Line>
                             <Line content="呼吸系统">
                                 <Line content="你的猫咪感冒了吗？" />
