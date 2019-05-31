@@ -130,13 +130,13 @@ class Catalog extends Component {
                                 <Line content="猫咪常见眼科疾病" url="https://zhuanlan.zhihu.com/p/67679498"/>
                             </Line>
                             <Line content="耳科疾病">
-                                <Line content="正确治疗猫咪耳螨" url=""/>
+                                <Line content="正确治疗猫咪耳螨" url="https://zhuanlan.zhihu.com/p/67679679"/>
                             </Line>
                             <Line content="重要传染病">
-                                <Line content="猫咪第一杀手-猫传腹" />
-                                <Line content="猫杯状病毒" />
-                                <Line content="猫疱疹病毒" />
-                                <Line content="猫瘟" />
+                                <Line content="猫咪第一杀手-猫传腹" url="https://zhuanlan.zhihu.com/p/67684236"/>
+                                <Line content="猫杯状病毒" url="https://zhuanlan.zhihu.com/p/67684366"/>
+                                <Line content="猫疱疹病毒" url="https://zhuanlan.zhihu.com/p/67684486"/>
+                                <Line content="猫瘟" url="https://zhuanlan.zhihu.com/p/67684601"/>
                             </Line>
                         </Line>
                         {/* <Line content="猫咪营养学">

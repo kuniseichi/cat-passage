@@ -93,7 +93,7 @@ class Article extends Component {
     render() {
         return (
             <section>
-                <GanMao/>
+                <MaoWen/>
                 <QRCode/>
             </section>
         );
