@@ -78,21 +78,22 @@ class Catalog extends Component {
                                 <Line content="美短" />
                             </Line> */}
                         </Line>
-                        {/* <Line content="日常养护"> */}
+                        <Line content="日常养护">
                             {/* <Line content="必需品" />
                             <Line content="环境需求" />
                             <Line content="定期工作" />
                             <Line content="健康检查" />
                             <Line content="掉毛" /> */}
-                            {/* <Line content="如何给猫咪刷牙" /> */}
-                            {/* <Line content="如何给猫咪洗耳朵" /> */}
-                            {/* <Line content="疫苗接种的建议" /> */}
-                        {/* </Line> */}
-                        {/* <Line content="猫咪行为学">
-                            <Line content="不良行为"/>
+                            <Line content="如何给猫咪刷牙" url="https://zhuanlan.zhihu.com/p/68073458"/>
+                            <Line content="如何给猫咪洗耳朵" url="https://mp.weixin.qq.com/s?__biz=Mzg4MzA2NzMzMg==&mid=2247483698&idx=1&sn=ca94ec076ca619f7d040dd27f906bb7c&chksm=cf4c5199f83bd88f74ab6e55c3e91d117128882a8e9c8c559a96de60b8b45b68ada5f1dc63a3&token=484471017&lang=zh_CN#rd"/>
+                            <Line content="疫苗接种的建议" url="https://mp.weixin.qq.com/s?__biz=Mzg4MzA2NzMzMg==&mid=2247483693&idx=1&sn=6ad2b39a933fb9f621a656e9a45cbfed&chksm=cf4c5186f83bd8909c37db56afc97b7bf4d5b83b246b6eae3f6cb623e6ab4bce2f0e8a1b9ff3&token=1254200673&lang=zh_CN#rd"/>
+                        </Line>
+                        <Line content="猫咪行为学">
+                            {/* <Line content="不良行为"/>
                             <Line content="调整作息"/>
                             <Line content="训练猫咪"/>
-                        </Line> */}
+                             */}
+                        </Line>
                         <Line content="疾病百科">
                             <Line content="人猫共患病">
                                 <Line content="巴斯德杆菌病" url="https://mp.weixin.qq.com/s?__biz=Mzg4MzA2NzMzMg==&mid=2247483685&idx=1&sn=402644df256550b0ba31085480cc2696&chksm=cf4c518ef83bd898854aa62332a6d8a31b3aac2f31e118a40e01efa89a33cdabdc23b246a205&token=407447556&lang=zh_CN#rd"/>
@@ -139,18 +140,21 @@ class Catalog extends Component {
                                 <Line content="猫瘟" url="https://zhuanlan.zhihu.com/p/67684601"/>
                             </Line>
                         </Line>
-                        {/* <Line content="猫咪营养学">
-                            <Line content="营养" />
+                        <Line content="猫咪营养学">
+                            <Line content="怎么喂食猫咪才最健康" />
+                            <Line content="喂食猫草也要" />
+                            {/* <Line content="营养" />
                             <Line content="猫粮" />
                             <Line content="生骨肉" />
-                            <Line content="自制猫饭" />
+                            <Line content="自制猫饭" /> */}
+                        </Line>
+                        <Line content="繁育知识">
                         </Line>
                         <Line content="测评">
                         </Line>
                         <Line content="猫咪杂谈">
                         </Line>
-                        <Line content="繁育知识">
-                        </Line> */}
+                        
                     </section>
                     <section style={this.state.showIndex?{display: "block"}:{display: "none"}}>
                         {passageList.length > 0 

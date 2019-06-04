@@ -36,7 +36,7 @@ class RuHeShuaYa extends Component {
                     <ZW>首先用包猫大发将猫咪包起来</ZW>
                     <Img title="无助的小猫咪" url="http://qny.kuniseichi.cn/%E5%A6%82%E4%BD%95%E7%BB%99%E7%8C%AB%E5%88%B7%E7%89%99-02.jpg"/>
                     <Img title="给猫咪刷门齿和犬齿" url="http://qny.kuniseichi.cn/%E5%A6%82%E4%BD%95%E7%BB%99%E7%8C%AB%E5%88%B7%E7%89%99-03.gif"/>
-                    <Img title="给猫咪刷臼齿" url="http://qny.kuniseichi.cn/%E5%A6%82%E4%BD%95%E7%BB%99%E7%8C%AB%E5%88%B7%E7%89%99-04.gif"/>
+                    <Img title="给猫咪刷臼齿" url="http://qny.kuniseichi.cn/%E5%A6%82%E4%BD%95%E7%BB%99%E7%8C%AB%E5%88%B7%E7%89%99-04-min.gif"/>
                     <ZW>最后刷完牙别忘了给主子奖励哦。</ZW>
                     <WX>
                         <p class="wx">[1]林政毅. 猫咪家庭医学大百科[M]. 2014:158-161.</p>

@@ -46,6 +46,9 @@ import YiMiaoJieZhong from '../html/passage/日常养护/疫苗接种的建议';
 import MaoShi from '../html/passage/疾病百科/消化系统/看猫屎知健康';
 import XiErDuo from '../html/passage/日常养护/如何给猫洗耳朵';
 import PinZhong from './passage/猫咪科普/想好要养什么品种的猫咪了吗？';
+import ZenMeChi from './passage/猫咪营养学/猫咪怎么吃才健康？';
+import MaoCao from './passage/猫咪营养学/猫草的正确喂食方法';
+import PiXie from './passage/猫咪营养学/猫粮的成分居然还不如四双皮鞋？';
 
 
 
@@ -93,7 +96,7 @@ class Article extends Component {
     render() {
         return (
             <section>
-                <MaoWen/>
+                <XiErDuo/>
                 <QRCode/>
             </section>
         );
